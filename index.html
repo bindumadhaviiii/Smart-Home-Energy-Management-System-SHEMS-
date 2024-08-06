@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Energy Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Smart Home Energy Management System</h1>
+        <br>
+        <h2>Monitor and Manage Your Home's Energy Consumption</h2>
+    </header>
+
+    <main>
+        <!-- Live Data Section -->
+        <section id="live-data">
+            <h3>Live Data</h3>
+            <div id="device-list">
+                <!-- Static Device List -->
+                <div>
+                    <h4>Device 1</h4>
+                    <p>Energy Consumed: 2.5 kWh</p>
+                </div>
+                <div>
+                    <h4>Device 2</h4>
+                    <p>Energy Consumed: 3.0 kWh</p>
+                </div>
+                <div>
+                    <h4>Device 3</h4>
+                    <p>Energy Consumed: 1.8 kWh</p>
+                </div>
+            </div>
+            <div id="live-graph">
+                <canvas id="liveChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Historical Data Section -->
+        <section id="historical-data">
+            <h3>Historical Data</h3>
+            <div id="data-table">
+                <!-- Static Data Table -->
+                <h4>Energy Consumption Table</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Device ID</th>
+                            <th>Timestamp</th>
+                            <th>Energy Consumed (kWh)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Device 1</td>
+                            <td>2024-08-01 12:00</td>
+                            <td>2.5</td>
+                        </tr>
+                        <tr>
+                            <td>Device 2</td>
+                            <td>2024-08-01 12:00</td>
+                            <td>3.0</td>
+                        </tr>
+                        <tr>
+                            <td>Device 3</td>
+                            <td>2024-08-01 12:00</td>
+                            <td>1.8</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="historical-graph">
+                <canvas id="historicalChart"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us: bindumadhaviakula20@gmail.com</p>
+        <p>&copy; 2024 Smart Home Energy Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

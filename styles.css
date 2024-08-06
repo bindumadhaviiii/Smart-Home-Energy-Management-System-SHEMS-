@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #FFFFFF; /* White text color */
+    margin: 0;
+    padding: 0;
+    background-color: #191e24; /* Dark background */
+}
+
+header {
+    background-color: #1b1f23; /* Darker blue background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#live-data, #historical-data {
+    background-color: #23272b; /* Dark grey background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#device-list, #data-table {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #3d444b; /* Dark grey border */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #2d333a; /* Darker grey background for table headers */
+    color: white; /* White text color for table headers */
+}
+
+footer {
+    background-color: #1b1f23; /* Darker blue background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
